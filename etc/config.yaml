@@ -1,0 +1,22 @@
+Name: mq
+Port: 3001
+
+RabbitMqListenConf:
+  Username: admin
+  Password: admin
+  Host: 192.168.2.115
+  Port: 5672
+  VHost: /
+  ListenerQueues:
+  -
+    Name: test1-consumer
+    AutoAck: true
+    Exclusive: false
+    NoLocal: false
+    NoWait: false
+  -
+    Name: test2-consumer
+    AutoAck: true
+    Exclusive: false
+    NoLocal: false
+    NoWait: false
