@@ -20,3 +20,15 @@ RabbitMqListenConf:
     Exclusive: false
     NoLocal: false
     NoWait: false
+
+KafkaListenConf:
+  Name: kafka
+  Brokers:
+  -
+    192.168.2.115:9093
+  -
+    192.168.2.115:9094
+  -
+    192.168.2.115:9095
+  Group: group-1
+  Topic: michenghua-topic

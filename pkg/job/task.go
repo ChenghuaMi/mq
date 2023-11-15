@@ -9,3 +9,9 @@ type TaskDataMq struct {
 	UserName string
 	Data interface{}
 }
+
+type TaskKafkaData struct {
+	Id int
+	Username string
+	Age int
+}
